@@ -1,0 +1,32 @@
+Name,Value
+VaultsettingsfilePath,C:\Users\deb\Desktop\T-EUN
+PrimaryASRfabric_Location,West US 2
+PrimaryASRfabric_Name,asr-a2a-default-westus
+RecoveryASRJob_Location,East US 2
+RecoveryASRJob_Name,asr-a2a-default-eastus
+PContainerASRJob_Name,asr-a2a-default-westus
+RContainerASRJob_Name,asr-a2a-default-eastus
+PolicyASRJob_Name,Recovery24H-Snapshot1H
+PolicyASRJob_Recovery,24
+PolicyASRJob_Snapshot,1
+PContainerASRJob2_Name,A2APrimaryToRecovery
+PContainerASRJob3_Name,A2ARecoveryToPrimary
+RPName,ASRpolicy1
+P2RnetASRJobName,A2ANeuToCWeuNWMapping
+F2RnetASRJobName,A2AWeuToNeuNWMapping
+TFOVnetName,a2aTFOvnet
+TFOResourceGroupName,A2ATFORECOVERYRG
+TFOLocation,West Europe
+TFOSubnetName,default
+TFOAddressPrefix,192.168.0.0/24
+TFOSubnetAddressPrefix,192.168.0.16/28
+ASRRecoveryVaultName,a2aRecoveryVault
+VaultTargetVMResouceGroupName,A2ARECOVERYRG
+VaultTargetVMLocation,East US 2
+TargetStorageAccountName,a2atargetstoragewestus
+CacheStorageAccountName,a2acachestorageeastus
+SourceVMResouceGroup,JumpServer
+SourceVMLocation,West US 2
+WriteOutputmsg,The updated job state is successfuly completed
+inprogress,InProgress
+notstarted,NotStarted

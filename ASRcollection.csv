@@ -1,0 +1,4 @@
+SourceVMName,SourceVMResouceGroup,SourceVMLocation,TargetVMResouceGroup,TargetVMLocation,ASRRecoveryVaultName,ASRRecoveryVaultGroup,RecoveryPlan,ASRPolicyName,TargetVNetName,TargetSubnetName,TargetStorageAccountName,CacheStorageAccountName,AddressPrefixVnet,AddressPrefixSubnet
+JumpServer201,JumpServer,West US 2,A2ARECOVERYRG,East US 2,a2aRecoveryVault,A2ARECOVERYRG,ASRpolicy1,A2APolicy,a2arecoveryvnet,defaultSubneteastus,a2atargetstoragewestus,a2acachestorageeastus,192.168.1.0/27,192.168.1.0/28
+PuppetServer,JumpServer,West US 2,A2ARECOVERYRG,East US 2,a2aRecoveryVault,A2ARECOVERYRG,ASRpolicy1,A2APolicy,a2arecoveryvnet,defaultSubneteastus,a2atargetstoragewestus,a2acachestorageeastus,192.168.1.0/28,192.168.1.0/29
+PuppetSlave,JumpServer,West US 2,A2ARECOVERYRG,East US 2,a2aRecoveryVault,A2ARECOVERYRG,ASRpolicy1,A2APolicy,a2arecoveryvnet,defaultSubneteastus,a2atargetstoragewestus,a2acachestorageeastus,192.168.1.0/29,192.168.1.0/30

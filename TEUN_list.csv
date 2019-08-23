@@ -1,0 +1,3 @@
+SourceVMName;SourceVMResouceGroup;SourceVMLocation;TargetVMResouceGroup;TargetVMLocation;ASRRecoveryVaultName;ASRRecoveryVaultGroup;RecoveryPlan;ASRPolicyName;TargetVNetName;TargetSubnetName;TargetStorageAccountName;CacheStorageAccountName;AddressPrefixVnet;AddressPrefixSubnet;TargetAVSET
+T-EUN-FTP91;T-EUN;northeurope;ASR-T-EUW;westeurope;ASR-EUW-RV1;ASR-EUW;RecoveryPlan-001;Recovery24H-Snapshot1H;ASR-T-EUW-VNET-010-100;ASR-T-EUW-SUB-010-100-002;asrteuwpremothr90;asrteunstndcache;10.100.0.0/16;10.100.2.0/24;ASR-T-EUW-FTP-AVSET01
+T-EUN-FTP92;T-EUN;northeurope;ASR-T-EUW;westeurope;ASR-EUW-RV1;ASR-EUW;RecoveryPlan-001;Recovery24H-Snapshot1H;ASR-T-EUW-VNET-010-100;ASR-T-EUW-SUB-010-100-002;asrteuwpremothr90;asrteunstndcache;10.100.0.0/16;10.100.2.0/24;ASR-T-EUW-FTP-AVSET01
